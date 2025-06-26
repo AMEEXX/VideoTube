@@ -1,0 +1,21 @@
+{
+  "name": "clone_of_everything",
+  "version": "1.0.0",
+  "description": "clone of today",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js "
+  },
+  "author": "AMit Kumar Hota",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.0",
+    "prettier": "^3.6.0"
+  }
+}
